@@ -9,8 +9,7 @@ const productos = [
 
 export default function ListaProductos() {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>Lista de Productos</h1>
       <ul>
         {productos.map((producto) => (
@@ -21,6 +20,6 @@ export default function ListaProductos() {
           </li>
         ))}
       </ul>
-    </div>
+    </Layout>
   );
 }
